@@ -4,12 +4,13 @@
 
     <groupId>io.github.AdishiSood</groupId>
     <artifactId>arithmetic</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -30,8 +31,8 @@
     </build>
     <packaging>jar</packaging>
 
-    <name>Arithmetic Library for Practice</name>
-    <description>This is a sample library for a practice about
+    <name>Arithmetic Library for Tutorial</name>
+    <description>This is a sample library for a tutorial about
         publishing to Maven Central
     </description>
     <url>http://github.com/AdishiSood/arithmetic</url>
@@ -105,8 +106,8 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://io.github/AdishiSood/arithmetic.git</connection>
-        <developerConnection>scm:git:ssh://io.github:AdishiSood/arithmetic.git</developerConnection>
+        <connection>scm:git:git://github.com/AdishiSood/arithmetic.git</connection>
+        <developerConnection>scm:git:ssh://github.com:AdishiSood/arithmetic.git</developerConnection>
         <url>http://github.com/AdishiSood/arithmetic</url>
     </scm>
 
